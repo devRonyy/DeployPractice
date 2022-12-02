@@ -1,4 +1,4 @@
-const server = "http://localhost:3005/mascotas";
+const server = "https://deploy-service-33nd.onrender.com/mascotas";
 
 //REALIZO UN FETCH A MI SERVER EN EL CUAL HICIMOS UN FIND ANTERIORMENTE DE MI DB Y RECOPILO LA INFO
 async function fetchMascotas() {
