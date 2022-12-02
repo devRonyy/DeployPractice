@@ -1,0 +1,54 @@
+#table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#table th {
+    text-transform: uppercase;
+    height: 50px;
+    background-color: #009557;
+}
+
+
+#table td {
+    text-align: center;
+    color: white;
+    background-color: #282727;
+    height: 35px;
+}
+
+form {
+    margin: auto;
+    width: 600px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    background-color: #006a3e;
+    color: white;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+}
+
+form input {
+    width: 400px;
+    align-self: center;
+    margin-top: 10px;
+    height: 25px
+}
+
+form button {
+    width: 150px;
+    height: 30px;
+    align-self: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
